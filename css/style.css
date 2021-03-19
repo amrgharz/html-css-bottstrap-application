@@ -1,0 +1,79 @@
+/* Start upper navBar styles */
+.upper-nav {
+  background-color: #08526d;
+  color: #eff3f5;
+}
+/* End upper navBar styles */
+/* Start navbar styles */
+.navbar-brand span {
+  font-size: 35px;
+}
+.navbar-brand span:first-child {
+  font-weight: bold;
+  color: #ec1c23;
+}
+.navbar-brand span:last-child {
+  color: #08526d;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #ec1c23;
+  font-weight: bold;
+}
+/* End navbar styles */
+/* Start Slider  */
+.slider .carousel-inner {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.slider .carousel-inner h1 {
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  line-height: 1.5;
+  left: 50px;
+}
+.slider .carousel-inner h1 span {
+  background-color: #ec1c23;
+}
+.slider .carousel-inner .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 60%);
+  z-index: 2;
+}
+.slider .carousel-item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.first-slide,
+.second-slide,
+.third-slide {
+  background-image: url("../images/image1.png");
+  background-size: cover;
+}
+/* End Slider  */
+/* Start features styles */
+.features {
+  padding: 30px 0px;
+}
+.features i {
+  background-color: #ec1c23;
+  color: #fff;
+  padding: 8px;
+}
+.features h3 {
+  margin-top: 8px;
+  color: #08526d;
+}
+
+/* End features styles */
