@@ -77,3 +77,67 @@
 }
 
 /* End features styles */
+/* Start Overview styles */
+.overview {
+  padding: 100px 0px;
+  background-color: #f0f5f7;
+}
+.overview h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.overview p {
+  line-height: 1.7;
+  color: #655a5a;
+}
+.overview h4 {
+  color: #505050;
+  margin-bottom: 30px;
+}
+.overview button {
+  background-color: #ec1c23;
+  border: none;
+  padding: 10px;
+  font-size: 19px;
+  font-family: ui-rounded;
+  color: #fff9;
+}
+
+/* End Overvew styles */
+/* Start featured-work styles */
+.featured-work {
+  padding: 100px 0px;
+}
+.featured-work h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.featured-work p {
+  line-height: 1.7;
+  color: #655a5a;
+}
+.featured-work h4 {
+  color: #505050;
+  margin-bottom: 30px;
+}
+.featured-work ul li {
+  color: #08526d;
+  border: solid 2px #08526d;
+  margin-left: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.featured-work ul li.active,
+.featured-work ul li:hover {
+  color: #fff9;
+  background-color: #ec1c23;
+  border: none;
+}
+.featured-work ul li.active {
+  cursor: pointer;
+}
+/* End featured-work styles */
