@@ -140,4 +140,10 @@
 .featured-work ul li.active {
   cursor: pointer;
 }
+.featured-work .row img {
+  width: 100%;
+}
+.featured-work .row .col-sm {
+  padding: 0px;
+}
 /* End featured-work styles */
