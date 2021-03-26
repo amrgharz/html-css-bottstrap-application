@@ -137,13 +137,17 @@
   background-color: #ec1c23;
   border: none;
 }
-.featured-work ul li.active {
+.featured-work ul li:hover {
   cursor: pointer;
 }
-.featured-work .row img {
+.featured-work .shuffel-images img {
   width: 100%;
 }
-.featured-work .row .col-sm {
+.featured-work .shuffel-images .row {
+  margin: 0px;
+  padding: 0px;
+}
+.featured-work .shuffel-images .row .col-sm {
   padding: 0px;
 }
 /* End featured-work styles */
